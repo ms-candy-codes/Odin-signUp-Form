@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: auto;
+    overflow: hidden;
+}
+
+#containerAll{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+#landing-image{
+    align-items: center;
+    background-image: url("pexels-vasanth-babu-150247-797793.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50vw;
+}
+
+#landing-text-div{
+    background-color: rgba(11, 11, 11, 0.467);
+    padding: 4%;
+    text-align: center;
+    width: 100%;
+}
+
+#landing-text{
+    color: rgb(239, 235, 235);
+    font-size: 3rem;
+    font-family: "IM Fell Great Primer", serif;
+}
+
+#landing-form{
+    height: 460px;
+}
+
+#form-container{
+    background-color: rgba(245, 245, 245, 0.63);
+    margin: 0 auto;
+}
+fieldset{
+    background-color: white;
+    border: none;
+    border-top: solid 1px rgba(171, 183, 183, 0.1);
+    box-shadow: 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+}
+
+input{
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+input#password:invalid{
+    border: 1px solid red;
+}
+
+input#password2:invalid{
+    border: 1px solid red;
+}
+
+input:focus{
+    border: 1px solid blue;
+    outline: none;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: start;
+    padding: 5% 10% 5% 0;
+    width: 50%;
+}
+
+.fieldset-text{
+    color: rgb(68, 68, 68);
+    font-family: "ROBOTO", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    left: 41%;
+    top: 37%;
+    position: absolute;
+}
+
+.form-text{
+    font-size: 1.2rem;
+    text-wrap: wrap;
+}
+
+.text-container{
+    font-family: "ROBOTO", serif;
+    font-weight: 500;
+    padding: 10% 3% 3%;
+    width: 64%;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    font-family: "ROBOTO", sans-serif;
+    font-size: 0.7rem;
+    margin-left: 8%;
+    margin-bottom:3%;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid rgba(171, 183, 183, 0.4);
+    box-shadow:  10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.submit-button{
+    background-color: #596D48;
+    border: 1px solid #596D48;
+    border-radius: 9px;
+    color: white;
+    height: 9%;
+    margin: 2% 5% 0;
+    width: 20%;
+}
+
+.login-text{
+    font-family: "ROBOTO", sans-serif;
+    font-size: 0.9rem;
+    padding: 1.5% 5%;
+}
+
+.log{
+    color: #596D48;
+    text-decoration: none;
+}
